@@ -10,6 +10,6 @@
 #### 2. 等待执行完成：curl http://127.0.0.1:9090/wait
 #### 3. 获取执行结果：curl http://127.0.0.1:9090/log
 
-### 编译JS函数，PY调用：
-#### 1. 在 js 中写好代码，如[fxqa_test_api.js](./fxqa_test_api.js) 中的 demo0
+### 编写JS函数，PY调用：
+#### 1. 在 js 中写好代码，如[fxqa_api_testcode.js](./fxqa_api_testcode.js) 中的 demo0
 #### 2. 调用 fxqa_run('demo0')
