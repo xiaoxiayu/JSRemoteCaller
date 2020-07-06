@@ -230,7 +230,7 @@ function fxqa_status(action_s) {
 	}
 
 	global.fxqa_init = function () {
-		//alert('Foxit autotest inside, before test start module shoule be init ok.');
+		//alert('xx autotest inside, before test start module shoule be init ok.');
 		fxqa_status('start');
 		setInterval(function () {
 			var js_c = fxqa_get_jscode();
